@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Yanone+Kaffeesatz:wght@600&display=swap');
+.c-info-content__items {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+    justify-content: center;
+    list-style: none
+}
+
+.c-info-content__items .c-info-content__image ,.c-info-content__image-1{
+    aspect-ratio: 1 / 1;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%
+}
+.info-head{
+    color: rgb(169, 9, 9);
+    font-weight: 800;
+}
+.c-info-content {
+    overflow: hidden
+}
+
+.c-info-content__content {
+    font-size: 25px;
+    line-height: 22px;
+    text-align: center
+}
+
+.c-info-content__heading {
+    color: #1a1a1a;
+    font-family: "Chronicle Text G2 A","Chronicle Text G2 B","Chronicle Text G2",Georgia,serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: .95rem;
+    text-align: center
+}
+
+.c-info-content__subheading {
+    color: #1a1a1a;
+    font-family: "Whitney A","Whitney B",Whitney,"Trebuchet MS",sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+
+    margin-bottom: 2.5rem;
+    text-align: justify;
+}
+.downloade_PDF{
+      background-image: linear-gradient(#f7f8fa ,#e7e9ec);
+      border-color: #adb1b8 #a2a6ac #8d9096;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 3px;
+      box-shadow: rgba(255,255,255,.6) 0 1px 0 inset;
+      box-sizing: border-box;
+      color: #0f1111;
+      cursor: pointer;
+      display: inline-block;
+      font-family: "Amazon Ember",Arial,sans-serif;
+      font-size: 14px;
+      height: 29px;
+      font-size: 13px;
+      outline: 0;
+      overflow: hidden;
+      padding: 0 11px;
+      text-align: center;
+      text-decoration: none;
+      text-overflow: ellipsis;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      white-space: nowrap;
+    }
+    
+    .downloade_PDF:active {
+      border-bottom-color: #a2a6ac;
+    }
+    
+    .downloade_PDF:active:hover {
+      border-bottom-color: #a2a6ac;
+    }
+    
+    .downloade_PDF:hover {
+      border-color: #a2a6ac #979aa1 #82858a;
+    }
+    
+    .downloade_PDF:focus {
+      border-color: #e77600;
+      box-shadow: rgba(228, 121, 17, .5) 0 0 3px 2px;
+      outline: 0;
+    }
+.c-info-content__item {
+    list-style: none;
+    margin: 10px 0
+}
+
+.c-info-content__item picture {
+    display: block;
+    text-align: center;
+    width: 100%
+}
+
+.c-info-content__link {
+	color: black;
+	padding: 20px;
+    overflow: hidden;
+    width: 100%;
+    text-decoration: none;
+    display: block
+}
+
+.c-info-content__image, .c-info-content__image-1 {
+    background-color: #ccc;
+    max-width: 100%;
+}
+
+.nature .c-info-content__content-heading {
+    color: #1a1a1a;
+    font-family: "Chronicle Text G2 A","Chronicle Text G2 B","Chronicle Text G2",Georgia,serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0
+}
+
+.c-info-content__content-subheading {
+    color: #1a1a1a;
+    font-family: "Whitney A","Whitney B",Whitney,"Trebuchet MS",sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+    display: inline-block;
+}
+
+.c-info-content__content-button {
+    border-bottom: 2px solid transparent;
+    text-transform: uppercase;
+    color: #007931;
+    display: inline-block;
+    font-family: "Whitney A","Whitney B",Whitney,"Trebuchet MS",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 5px;
+    vertical-align: top;
+    white-space: nowrap;
+    width: -moz-min-content;
+    width: min-content
+}
+
+.c-info-content__link-wrapper {
+    text-decoration: none;
+    display: block
+}
+
+.c-info-content__link-wrapper:hover .c-info-content__content-button {
+    border-bottom-color: #3c3c3c;
+    color: #3c3c3c
+}
+
+.c-info-content__heading-panel {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 3rem 2rem 8rem;
+    margin: 0
+}
+
+.c-info-content__heading-panel--dark-green {
+    background: url("https://images.pond5.com/pour-water-dry-cracked-soil-footage-128697668_iconl.jpeg");
+    background-size:cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: -1;
+    background: cover;
+    
+}
+.c-info-content__heading-panel--dark-green-air {
+    background: url("https://images.pexels.com/photos/6197325/pexels-photo-6197325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size:cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: -1;
+    background: cover;
+    
+}
+.c-info-content__heading-panel--dark-green-water {
+    background: url("https://images.pexels.com/photos/1578749/pexels-photo-1578749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size:cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: -1;
+    background: cover;
+    
+}
+.c-info-content__heading-panel--dark-green-noise {
+    background: url("https://www.sfn.org/-/media/Brainfacts2/Thinking-Sensing-and-Behaving/Diet-and-Lifestyle/Article-Images/NoisePollution062718.jpg");
+    background-size:cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: -1;
+    background: cover;
+    
+}
+.c-info-content__heading-panel--dark-green-light {
+    background: url("https://cdn.pixabay.com/photo/2018/08/08/03/49/stars-3591279_1280.jpg");
+    background-size:cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: -1;
+    background: cover;
+    
+}
+.c-info-content__heading-panel--dark-green-thermal {
+    background: url("https://w0.peakpx.com/wallpaper/246/234/HD-wallpaper-thermal-power-plant-smoking-chimneys-environmental-pollution-evening-sunset-power-station-pollution-concepts.jpg");
+    background-size:cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: -1;
+    background: cover;
+    
+}
+.c-info-content__heading-panel--dark-green-radioactive {
+    background: url("https://cdn.downtoearth.org.in/library/large/2021-12-10/0.94942000_1639135569_istock-1175443380.jpg");
+    background-size:cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: -1;
+    background: cover;
+    
+}
+.c-info-content__heading-panel--dark-green-plastic {
+    background: url("https://akm-img-a-in.tosshub.com/indiatoday/images/story/202210/gettyimages-763242941-sixteen_nine.jpg?VersionId=Vg14FxU8uuq_9NhVghIU.4kvMJk4UIGg&size=690:388");
+    background-size:cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: -1;
+    background: cover;
+    
+}
+.c-info-content__heading-panel--dark-green:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
+    bottom: 0;
+    left: 0;
+}
+
+.c-info-content__heading-panel--tan {
+    background-color: #e4e6d7
+}
+
+.c-info-content__heading-panel .c-info-content__heading,.c-info-content__heading-panel .c-info-content__subheading {
+    color: #fff;
+    font-weight: 900;
+}
+
+.c-info-content__heading-panel--tan .c-info-content__heading,.c-info-content__heading-panel--tan .c-info-content__subheading {
+    color: #1a1a1a
+}
+
+.c-info-content__text, .c-info-content__text-1 {
+    background-color: #fff
+}
+
+.c-info-content--vertical .c-info-content__heading {
+    font-family: "Whitney A","Whitney B",Whitney,"Trebuchet MS",sans-serif;
+    margin-top: 40px;
+}
+
+.c-info-content--vertical .c-info-content__items {
+    margin: 0 auto;
+    margin-top: -120px
+}
+
+.c-info-content--vertical .c-info-content__item {
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding: 0 20px
+}
+
+.c-info-content--vertical .c-info-content__content-heading::after {
+    border-bottom: 5px solid #ff6a00;
+    content: " ";
+    display: block;
+    margin: 25px auto;
+    width: 50px
+}
+
+.c-info-content--vertical .c-info-content__image, .c-info-content__image-1 {
+    
+    aspect-ratio: unset;
+    border-radius: 5px;
+    height: 45vw
+}
+
+.c-info-content--vertical-no-heading .c-info-content__items {
+    margin-top: 0
+}
+
+@media screen and (min-width: 40em) {
+    .c-info-content__items {
+        margin-bottom:-20px
+    }
+
+    .c-info-content__item {
+        margin-bottom: 20px
+    }
+
+    .c-info-content__link {
+        margin-right: auto;
+        margin-left: auto
+    }
+
+    .nature .c-info-content__content-heading {
+        margin-top: 25px;
+        margin-bottom: 10px
+    }
+
+    .c-info-content__heading-panel {
+        padding: 4rem 4rem 10rem
+    }
+
+    .c-info-content--vertical .c-info-content__items {
+        margin: 0 auto;
+        margin-top: -155px
+    }
+
+    .c-info-content--vertical .c-info-content__item {
+        padding: 0 60px
+    }
+
+    .c-info-content--vertical-no-heading .c-info-content__items {
+        margin-top: 0
+    }
+}
+
+@media screen and (min-width: 52em) {
+    .c-info-content__heading {
+        font-size:40px;
+        line-height: 46px
+    }
+
+    .c-info-content__subheading {
+        line-height: 28px
+    }
+
+    .c-info-content__content {
+        font-size: 20px;
+        line-height: 36px
+    }
+
+    .c-info-content__content-heading {
+        line-height: 34px
+    }
+
+    .nature .c-info-content__content-subheading{
+        font-size: 18px;
+        line-height: 28px
+    }
+
+    .c-info-content__heading-panel {
+        padding: 4rem 6rem 14rem
+    }
+
+    .c-info-content--vertical .c-info-content__items {
+        margin-top: -200px
+    }
+
+    .c-info-content--vertical .c-info-content__content-heading {
+        font-size: 34px;
+        line-height: 42px
+    }
+
+    .c-info-content--vertical-no-heading .c-info-content__items {
+        margin-top: 0
+    }
+}
+
+@media screen and (min-width: 64em) {
+    .c-info-content__heading-panel {
+        padding:5rem 8rem 11rem
+    }
+
+    .c-info-content__heading-panel .c-info-content__heading,.c-info-content__heading-panel .c-info-content__subheading {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 800px
+    }
+
+    .c-info-content--vertical .c-info-content__items {
+        margin-top: -165px;
+        max-width: 1290px
+    }
+
+    .c-info-content--vertical .c-info-content__item {
+        margin: 0;
+        width: 100%
+    }
+
+    .c-info-content--vertical .c-info-content__content {
+        display: flex
+    }
+
+    .c-info-content--vertical .c-info-content__item:nth-child(even) .c-info-content__content {
+        flex-direction: row-reverse
+    }
+
+    .c-info-content--vertical .c-info-content__items--first-image-right .c-info-content__item:nth-child(even) .c-info-content__content {
+        flex-direction: row
+    }
+
+    .c-info-content--vertical .c-info-content__items--first-image-right .c-info-content__item:nth-child(odd) .c-info-content__content {
+        flex-direction: row-reverse
+    }
+
+    .c-info-content--vertical .c-info-content__content picture {
+        width: 645px
+    }
+
+    .c-info-content--vertical .c-info-content__text {
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+        justify-content: center;
+        padding: 0px 0;
+        width: 645px
+    }
+    .c-info-content--vertical .c-info-content__text-1 {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        padding: 0px 0;
+        width: 645px
+    }
+
+
+    .c-info-content--vertical .c-info-content__content-heading,.c-info-content--vertical .c-info-content__content-subheading {
+        margin-left: 50px;
+        margin-right: 50px
+    }
+
+    .c-info-content--vertical .c-info-content__image {
+        height: 900px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        width: 645px
+    }
+    .c-info-content--vertical .c-info-content__image-1 {
+        height: 320px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        width: 645px
+    }
+
+
+    .c-info-content--vertical-no-heading .c-info-content__items {
+        margin-top: 0
+    }
+}

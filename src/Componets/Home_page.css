@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Yanone+Kaffeesatz:wght@600&display=swap');
+.c-text-list-callout__items {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+    justify-content: center;
+    list-style: none
+}
+
+.c-text-list-callout__items .c-text-list-callout__image {
+    aspect-ratio: 1 / 1;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%
+}
+
+.c-text-list-callout {
+    overflow: hidden
+}
+
+.c-text-list-callout__content {
+    font-size: 30px;
+    line-height: 22px;
+    text-align: center
+}
+
+.c-text-list-callout__heading {
+    color: #1a1a1a;
+    font-family: "Chronicle Text G2 A","Chronicle Text G2 B","Chronicle Text G2",Georgia,serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: .95rem;
+    text-align: center
+}
+
+.c-text-list-callout__subheading {
+    color: #1a1a1a;
+    font-family: "Whitney A","Whitney B",Whitney,"Trebuchet MS",sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 2.5rem;
+    text-align: center
+}
+
+.c-text-list-callout__item {
+    list-style: none;
+    margin: 10px 0
+}
+
+.c-text-list-callout__item picture {
+    display: block;
+    text-align: center;
+    width: 100%
+}
+
+.c-text-list-callout__link {
+	color: black;
+	padding: 20px;
+    overflow: hidden;
+    width: 100%;
+    text-decoration: none;
+    display: block
+}
+
+.c-text-list-callout__image {
+    background-color: #ccc;
+    max-width: 100%
+}
+
+.nature .c-text-list-callout__content-heading {
+    color: #1a1a1a;
+    font-family: "Chronicle Text G2 A","Chronicle Text G2 B","Chronicle Text G2",Georgia,serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0
+}
+
+.c-text-list-callout__content-subheading {
+    color: #1a1a1a;
+    font-family: "Whitney A","Whitney B",Whitney,"Trebuchet MS",sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    margin-bottom: 20px
+}
+
+.c-text-list-callout__content-button {
+      --b: 3px;   /* border thickness */
+      --s: .45em; /* size of the corner */
+      --color: #373B44;
+      
+      padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+      color: var(--color);
+      --_p: var(--s);
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+        var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+      transition: .3s linear, color 0s, background-color 0s;
+      outline: var(--b) solid #0000;
+      outline-offset: .6em;
+      font-size: 16px;
+    
+      border: 0;
+    
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+    
+
+.c-text-list-callout__link-wrapper {
+    text-decoration: none;
+    display: block
+}
+
+.c-text-list-callout__link-wrapper:hover .c-text-list-callout__content-button {
+    border-bottom-color: #3c3c3c;
+    color: #3c3c3c
+}
+
+.c-text-list-callout__heading-panel {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 3rem 2rem 8rem;
+    margin: 0
+}
+
+.c-text-list-callout__heading-panel--dark-green {
+    background-color: #00381e
+}
+
+.c-text-list-callout__heading-panel--tan {
+    background-color: #e4e6d7
+}
+
+.c-text-list-callout__heading-panel .c-text-list-callout__heading,.c-text-list-callout__heading-panel .c-text-list-callout__subheading {
+    color: #fff
+}
+
+.c-text-list-callout__heading-panel--tan .c-text-list-callout__heading,.c-text-list-callout__heading-panel--tan .c-text-list-callout__subheading {
+    color: #1a1a1a
+}
+
+.c-text-list-callout__text {
+    background-color: #fff
+}
+
+.c-text-list-callout--vertical .c-text-list-callout__heading {
+    font-family: "Whitney A","Whitney B",Whitney,"Trebuchet MS",sans-serif
+}
+
+.c-text-list-callout--vertical .c-text-list-callout__items {
+    margin: 0 auto;
+    margin-top: -120px
+}
+
+.c-text-list-callout--vertical .c-text-list-callout__item {
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding: 0 20px
+}
+
+.c-text-list-callout--vertical .c-text-list-callout__content-heading::after {
+    border-bottom: 5px solid #007931;
+    content: " ";
+    display: block;
+    margin: 25px auto;
+    width: 50px
+}
+
+.c-text-list-callout--vertical .c-text-list-callout__image {
+    aspect-ratio: unset;
+    border-radius: 5px;
+    height: 45vw
+}
+
+.c-text-list-callout--vertical-no-heading .c-text-list-callout__items {
+    margin-top: 0
+}
+
+@media screen and (min-width: 40em) {
+    .c-text-list-callout__items {
+        margin-bottom:-20px
+    }
+
+    .c-text-list-callout__item {
+        margin-bottom: 20px
+    }
+
+    .c-text-list-callout__link {
+        margin-right: auto;
+        margin-left: auto
+    }
+
+    .nature .c-text-list-callout__content-heading {
+        margin-top: 25px;
+        margin-bottom: 10px
+    }
+
+    .c-text-list-callout__heading-panel {
+        padding: 4rem 4rem 10rem
+    }
+
+    .c-text-list-callout--vertical .c-text-list-callout__items {
+        margin: 0 auto;
+        margin-top: -155px
+    }
+
+    .c-text-list-callout--vertical .c-text-list-callout__item {
+        padding: 0 60px
+    }
+
+    .c-text-list-callout--vertical-no-heading .c-text-list-callout__items {
+        margin-top: 0
+    }
+}
+
+@media screen and (min-width: 52em) {
+    .c-text-list-callout__heading {
+        font-size:40px;
+        line-height: 46px
+    }
+
+    .c-text-list-callout__subheading {
+        line-height: 28px
+    }
+
+    .c-text-list-callout__content {
+        font-size: 20px;
+        line-height: 36px
+    }
+
+    .c-text-list-callout__content-heading {
+        line-height: 34px
+    }
+
+    .nature .c-text-list-callout__content-subheading {
+        font-size: 18px;
+        line-height: 28px
+    }
+
+    .c-text-list-callout__heading-panel {
+        padding: 4rem 6rem 14rem
+    }
+
+    .c-text-list-callout--vertical .c-text-list-callout__items {
+        margin-top: -200px
+    }
+
+    .c-text-list-callout--vertical .c-text-list-callout__content-heading {
+        font-size: 34px;
+        line-height: 42px
+    }
+
+    .c-text-list-callout--vertical-no-heading .c-text-list-callout__items {
+        margin-top: 0
+    }
+}
+
+@media screen and (min-width: 64em) {
+    .c-text-list-callout__heading-panel {
+        padding:5rem 8rem 11rem
+    }
+
+    .c-text-list-callout__heading-panel .c-text-list-callout__heading,.c-text-list-callout__heading-panel .c-text-list-callout__subheading {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 800px
+    }
+
+    .c-text-list-callout--vertical .c-text-list-callout__items {
+        margin-top: -165px;
+        max-width: 1290px
+    }
+
+    .c-text-list-callout--vertical .c-text-list-callout__item {
+        margin: 0;
+        width: 100%
+    }
+
+    .c-text-list-callout--vertical .c-text-list-callout__content {
+        display: flex
+    }
+
+    .c-text-list-callout--vertical .c-text-list-callout__item:nth-child(even) .c-text-list-callout__content {
+        flex-direction: row-reverse
+    }
+
+    .c-text-list-callout--vertical .c-text-list-callout__items--first-image-right .c-text-list-callout__item:nth-child(even) .c-text-list-callout__content {
+        flex-direction: row
+    }
+
+    .c-text-list-callout--vertical .c-text-list-callout__items--first-image-right .c-text-list-callout__item:nth-child(odd) .c-text-list-callout__content {
+        flex-direction: row-reverse
+    }
+
+    .c-text-list-callout--vertical .c-text-list-callout__content picture {
+        width: 645px
+    }
+
+    .c-text-list-callout--vertical .c-text-list-callout__text {
+        display: flex;
+        flex-direction: column;
+        height: 330px;
+        justify-content: center;
+        padding: 50px 0;
+        width: 645px
+    }
+
+    .c-text-list-callout--vertical .c-text-list-callout__content-heading,.c-text-list-callout--vertical .c-text-list-callout__content-subheading {
+        margin-left: 50px;
+        margin-right: 50px
+    }
+
+    .c-text-list-callout--vertical .c-text-list-callout__image {
+        height: 330px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        width: 645px
+    }
+
+    .c-text-list-callout--vertical-no-heading .c-text-list-callout__items {
+        margin-top: 0
+    }
+}
